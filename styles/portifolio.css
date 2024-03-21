@@ -1,0 +1,11 @@
+:root {
+  --heading-font: "Playfair Display SC", serif;
+  --text-font: "Poppins", sans-serif;
+}
+h1 {
+  font-family: var(--heading-font);
+  font-weight: 700;
+}
+p {
+  font-family: var(--text-font);
+}
