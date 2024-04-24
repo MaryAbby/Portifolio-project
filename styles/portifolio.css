@@ -86,6 +86,28 @@ p {
 .content p {
   font-size: 14px;
 }
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 40px;
+  margin-left: 15px;
+}
+nav a {
+  color: #272142;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
 @media (max-width: 960px) {
   h1 {
     font-size: 50px;
@@ -107,5 +129,12 @@ p {
   }
   .image {
     margin-bottom: 50px;
+  }
+  nav li {
+    margin-left: 5px;
+    font-size: 13px;
+  }
+  nav h3 {
+    font-size: 25px;
   }
 }
