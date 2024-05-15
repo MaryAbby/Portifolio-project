@@ -18,7 +18,7 @@ h6 {
 }
 .hero {
   background: var(--secondary-color);
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 .hero p {
   font-weight: bold;
@@ -63,7 +63,7 @@ p {
   padding: 80px 40px;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 50px 20px;
 }
 .content {
   margin: 30px;
@@ -148,7 +148,7 @@ footer .social-links a:hover {
     font-size: 44px;
   }
   .hero {
-    padding: 80px 20px;
+    padding: 60px 20px;
   }
   .project-description {
     padding: 0;
